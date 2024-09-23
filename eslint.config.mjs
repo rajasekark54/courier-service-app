@@ -8,4 +8,12 @@ export default [
   {languageOptions: { globals: globals.browser }},
   pluginJs.configs.recommended,
   ...tsEsLint.configs.recommended,
+  {
+    ignores: ['node_modules/', 'test/'],
+  },
+  {
+    rules: {
+      'no-trailing-spaces': ['error'],
+    },
+  },
 ];
