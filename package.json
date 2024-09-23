@@ -1,0 +1,16 @@
+{
+  "name": "courier-service-app",
+  "version": "1.0.0",
+  "description": "Small distance courier service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "prettier": "^3.3.3"
+  }
+}
