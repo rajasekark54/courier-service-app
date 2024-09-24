@@ -11,6 +11,8 @@ Before you begin, ensure you have the following installed on your system:
 
   ```bash
   npm install -g pnpm
+  ```
+
 ## Getting Started
 
 To get started, follow these steps:
@@ -19,10 +21,14 @@ To get started, follow these steps:
 
   ```bash
   pnpm install
+  ```
+
 - **Run Tests**: To verify the logic and run the unit tests, use the following command:
   ```bash
   npm run test
-## NPM Scripts  
+  ```
+
+## NPM Scripts
 
 To get started, follow these steps:
 
@@ -30,10 +36,15 @@ To get started, follow these steps:
 
   ```bash
   npm run lint
+  ```
+
 - **Fix Lint Errors**: Automatically fixes linting errors in the codes
 
   ```bash
   npm run code-format
+  ```
+
 - **Format Code**: Formats the entire codebase using Prettier.
   ```bash
   npm run code-format
+  ```
