@@ -6,7 +6,6 @@ export const main = (baseDeliveryCost, users, packages) => {
   const orderManagementService = new OrderManagementService(orderAssignmentService);
 
   const packageDetail = orderManagementService.processPackages(baseDeliveryCost, packages);
-  console.log(packageDetail);
 
   orderManagementService.getDeliveryTimeEstimation(packageDetail);
 
@@ -21,5 +20,6 @@ export const main = (baseDeliveryCost, users, packages) => {
     });
   }
 
+  console.log('Result ->', result);
   return result;
 };
