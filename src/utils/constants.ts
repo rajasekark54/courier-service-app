@@ -1,0 +1,2 @@
+export const PACKAGE_WEIGHT_PER_COST = 10;
+export const PACKAGE_DISTANCE_PER_COST = 5;
